@@ -1,0 +1,18 @@
+.hero {
+  background-color: #0974f1;
+  width: 196.3vh;
+  height: 380px;
+}
+.hero .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.hero .container .content h1 {
+  font-size: 50px;
+  line-height: 1.7;
+  color: white;
+}
+
+/*# sourceMappingURL=HubHero.css.map */

@@ -1,0 +1,66 @@
+@import "_veriables";
+@import "_mixins";
+
+.footer{
+  background-color: #171717;
+  .container{
+    padding-bottom: 30px;
+    .content{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px 0;
+      .left{
+        .hob{
+          margin-bottom: 20px;
+          .logo{
+            img{
+              width: 80px;
+            }
+          }
+        }
+        span{
+          color: #525252;
+          font-size: 10px;
+          line-height: 1.55;
+          font-family: 'FuturaPT',Arial,sans-serif;
+          font-weight: 300;
+          text-align: center;
+        }
+      }
+      .right{
+        display: flex;
+        padding-top: 65px;
+        .section{
+          margin-right: 50px;
+          h2{
+            color: #525252;
+            font-size: 17px;
+            padding-bottom: 15px;
+          }
+          h4{
+            color: $link-color;
+            font-size: 12px;
+            line-height: 2.5;
+            font-family: 'FuturaPT', Arial, sans-serif;
+            font-weight: 50;
+          }
+        }
+        .net{
+          h2{
+            color: #525252;
+            font-size: 17px;
+            padding-bottom: 15px;
+          }
+          h4 {
+            color: $link-color;
+            font-size: 12px;
+            line-height: 2.5;
+            font-family: 'FuturaPT', Arial, sans-serif;
+            font-weight: 50;
+          }
+        }
+      }
+    }
+  }
+}

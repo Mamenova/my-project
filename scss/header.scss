@@ -1,0 +1,35 @@
+@import "_mixins";
+@import "_veriables";
+
+//header section starts
+.header{
+  height: $header-height;
+  background-color: $header-bg;
+  .content{
+    @include flex-center();
+
+    .logo{
+      padding: 15px 102px;
+      img{
+        width: 50px;
+      }
+    }
+    ul{
+      padding: 18px 100px;
+      @include flex-center();
+      .link{
+        margin-left: 15px;
+        color: $link-color;
+        font-weight: 400;
+        font-size: 14px;
+        &:hover{
+          cursor: pointer;
+          color: gray;
+      }
+      }
+    }
+  }
+}
+//header section ends
+
+

@@ -1,0 +1,15 @@
+.command .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.command .content .card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*# sourceMappingURL=command.css.map */

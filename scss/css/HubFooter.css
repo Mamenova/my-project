@@ -1,0 +1,59 @@
+.footer {
+  background-color: #171717;
+}
+.footer .container {
+  padding-bottom: 30px;
+}
+.footer .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.footer .container .content .left .hob {
+  margin-bottom: 20px;
+}
+.footer .container .content .left .hob .logo img {
+  width: 80px;
+}
+.footer .container .content .left span {
+  color: #525252;
+  font-size: 10px;
+  line-height: 1.55;
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.footer .container .content .right {
+  display: flex;
+  padding-top: 65px;
+}
+.footer .container .content .right .section {
+  margin-right: 50px;
+}
+.footer .container .content .right .section h2 {
+  color: #525252;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+.footer .container .content .right .section h4 {
+  color: white;
+  font-size: 12px;
+  line-height: 2.5;
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 50;
+}
+.footer .container .content .right .net h2 {
+  color: #525252;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+.footer .container .content .right .net h4 {
+  color: white;
+  font-size: 12px;
+  line-height: 2.5;
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 50;
+}
+
+/*# sourceMappingURL=HubFooter.css.map */

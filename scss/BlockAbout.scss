@@ -1,0 +1,29 @@
+@import "_veriables";
+@import "_mixins";
+
+.block-about{
+  .container{
+    .content{
+      padding: 70px 200px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .block{
+        margin: 30px;
+        width: 400px;
+        img{
+          width: 420px;
+        }
+        h2{
+          padding-top: 12px;
+        }
+        p{
+          color: #777;
+          padding: 30px 0;
+        }
+      }
+    }
+  }
+}

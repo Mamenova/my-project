@@ -1,0 +1,21 @@
+@import "_mixins";
+@import "_veriables";
+.hero{
+  background-color: $blue;
+  width: 196.4vh;
+  height: 300px;
+  .container{
+    .content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+      h1{
+        font-size: 50px;
+        line-height: 1.70;
+        color: $link-color;
+        font-family: 'FuturaPT',Arial,sans-serif;
+      }
+    }
+  }
+}

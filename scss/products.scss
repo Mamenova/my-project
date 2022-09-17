@@ -1,0 +1,128 @@
+@import "_mixins";
+@import "_veriables";
+
+.products{
+  margin: 150px 215px ;
+  .container{
+    .content{
+      .our-mission{
+        padding: 2rem ;
+        width: 60%;
+        p{
+          color: $text-color;
+          letter-spacing: 1px;
+          font-weight: $font-wight;
+          line-height: $line-hight;
+          span{
+            color: $text-color;
+            font-weight: 600;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .content-block{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //flex-wrap: nowrap;
+        //flex-direction: row;
+        .block{
+          display: flex;
+          align-items: flex-start;
+          .number{
+            background-color: $blue;
+            width: 60px;
+            height: 30px;
+            border-radius: 100% ;
+            padding-left: 10px;
+            color: $link-color;
+            display: flex;
+            align-items: center;
+          }
+          .title{
+            padding-left: 20px;
+
+            h2{
+              position: relative;
+              color: $blue;
+              &::after{
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 2.5px;
+                background-color: $blue;
+                top: 16px;
+                left: 112px;
+              }
+            }
+            p{
+              padding-bottom: 15px;
+              .averspay{
+                color: $blue;
+                font-weight: 500;
+                font-size: 15px;
+              }
+              .zero-som{
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+
+      .block-images{
+        margin-top: 6rem;
+
+        .images {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin-bottom: 30px;
+          margin-left: 60px;
+          cursor: zoom-in;
+          img{
+            width: 400px;
+            height: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            object-fit: cover;
+            margin: 10px;
+          }
+        }
+
+        .btn{
+          border: 2px solid $text-color;
+          background: none;
+          margin: 0 auto;
+          font-weight: bold;
+          padding: 17px 27px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          transition: .4s ease;
+          cursor: pointer;
+          transform: translateY(5%);
+          //@include blue-btn;
+          &:hover,
+          &:focus {
+            background-color: $text-color;
+            color: #ffffff;
+          }
+
+          &:active {
+            background: #075dbf ;
+            color: rgb(255, 255, 255, .7);
+          }
+
+          &:disabled {
+            cursor: not-allowed;
+            background: rgba(0, 0, 0, .08);
+            color: rgba(0, 0, 0, .3);
+          }
+        }
+      }
+    }
+  }
+}

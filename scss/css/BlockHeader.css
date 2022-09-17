@@ -1,0 +1,33 @@
+.header {
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+.header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header .content .logo {
+  padding: 15px 102px;
+}
+.header .content .logo img {
+  width: 50px;
+}
+.header .content ul {
+  padding: 18px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .content ul .link {
+  margin-left: 15px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+.header .content ul .link:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+/*# sourceMappingURL=BlockHeader.css.map */

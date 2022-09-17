@@ -1,0 +1,45 @@
+@import "_veriables";
+@import "_mixins";
+
+.command {
+  margin-bottom: 150px;
+  .title{
+    text-align: center;
+    margin: 80px 0;
+    font-size: 52px;
+    line-height: 1.23;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 600;
+    color: #0974f1;
+  }
+  .container{
+    .content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .card{
+        margin-bottom: 100px;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        img{
+          width: 80%;
+          padding-left: 20%;
+        }
+        h2{
+          color: $blue;
+          text-align: center;
+        }
+        span{
+          color: $text-color;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

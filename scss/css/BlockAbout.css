@@ -1,0 +1,10 @@
+.about .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .container .content .block .image img {
+  width: 300px;
+}
+
+/*# sourceMappingURL=BlockAbout.css.map */

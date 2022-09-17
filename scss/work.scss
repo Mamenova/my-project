@@ -1,0 +1,138 @@
+@import "_mixins";
+@import "_veriables";
+
+.works{
+  margin-bottom: 100px;
+
+  .container{
+
+    .title-span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      margin-bottom: 70px;
+      text-align: center;
+    }
+
+    .content{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+        .block{
+          padding-left: 30px;
+          display: flex;
+          align-items: flex-start;
+          i{
+            background-color: $blue;
+            width: 30px;
+            height: 30px;
+            border-radius: 100% ;
+            padding-left: 8px;
+            color: $link-color;
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+          }
+          .info{
+            padding-bottom: 40px;
+            h2{
+              font-size: 20px;
+              color: $blue;
+              padding-bottom: 20px;
+            }
+            p{
+
+            }
+          }
+        }
+    }
+  }
+  .guys{
+    margin-top: 60px;
+    background-image: url("https://thumb.tildacdn.com/tild6637-3166-4436-a530-633338343462/-/format/webp/Tilda_Last_Pic.png");
+    width: 196vh;
+    height: 100vh;
+    .guys-content{
+      padding: 180px 240px;
+
+      h1{
+        font-size: 46px;
+        line-height: 1.4;
+        text-shadow: rgb(0 0 0 / 30%) 0 2px 20px;
+        color: $link-color;
+        animation: group .9s alternate ease-in-out;
+        @keyframes group {
+          0%{
+            transform: translateX(-1000px);
+          }
+          100%{
+            transform: translateX(0);
+          }
+        }
+
+        .guys-title{
+          text-decoration: underline;
+          font-family: 'FuturaPT',Arial,sans-serif;
+        }
+      }
+      p{
+        padding-top: 25px;
+        font-size: 16px;
+        color: $link-color;
+        font-family: 'FuturaPT',Arial,sans-serif;
+        //line-height: 1.50
+        animation: group 1.2s alternate ease-in-out;
+        @keyframes group {
+          0%{
+            transform: translateX(-1000px);
+          }
+          100%{
+            transform: translateX(0);
+          }
+        }
+      }
+      .btn-guys{
+        margin-top: 55px;
+        background: $link-color;
+        padding: 13px 40px;
+        border-radius: 24px;
+        border: 0;
+        font-weight: bold;
+        text-align: center;
+        -moz-text-size-adjust: auto;
+        font-size: 10px;
+        font-family: 'FuturaPT',Arial,sans-serif;
+        transition: all .3s ease;
+        cursor: pointer;
+        &:hover,
+        &:active {
+          background: $link-color;
+          color: #47f109;
+        }
+        animation: group 1.4s alternate ease-in-out;
+        @keyframes group {
+          0%{
+            transform: translateX(-1000px);
+          }
+          100%{
+            transform: translateX(0);
+          }
+        }
+      }
+      #guys-icon{
+        font-size: 32px;
+        color: $link-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        transition: all .3s ease;
+        &:hover{
+          cursor: pointer;
+          transform: translateY(7%);
+        }
+      }
+    }
+  }
+}
